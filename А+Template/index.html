@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>А+ - Школа создания алиби - Главная страница</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo-orange.svg" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-inner container" style="padding: 0">
+        <div class="nav-logo">
+          <a class="logo"><img src="img/logo.svg" alt="Лого" /></a>
+        </div>
+        <div class="nav-links">
+          <a href="#">Программа обучения</a>
+          <a href="#">Выпускники</a>
+          <a href="#">Как поступить</a>
+          <a href="#">Контакты</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="intro">
+      <div class="intro-inner container">
+        <div class="intro-text">
+          <h1>
+            Учеба еще никогда не была
+            <span class="white-italic">такой интересной</span>!
+          </h1>
+          <p>
+            Обучаем готовых к трудоустройству специалистов на теоретических и
+            практических курсах.
+          </p>
+          <a class="dark-btn">Подать заявку</a>
+        </div>
+        <div class="intro-img">
+          <img src="img/intro-img.png" alt="Студенты нашей школы" />
+        </div>
+      </div>
+      <div class="intro-bottom">
+        <div class="intro-bottom-upper">
+          <div class="features-img-inner">
+            <div class="features-img">
+              <img src="img/Icon1.svg" />
+            </div>
+            <div class="features-img">
+              <img src="img/Icon2.svg" />
+            </div>
+            <div class="features-img">
+              <img src="img/Icon3.svg" />
+            </div>
+          </div>
+          <div class="features-inner container" style="padding-top: 0">
+            <div class="intro-bottom-text">
+              <h3>Гибкий график обучения</h3>
+              <p>
+                Современный темп жизни требует гибкого подхода к расписанию.
+              </p>
+            </div>
+            <div class="intro-bottom-text">
+              <h3>Практические занятия</h3>
+              <p>
+                На одной теории далеко не уедешь, поэтому мы обучаем на
+                практике.
+              </p>
+            </div>
+            <div class="intro-bottom-text">
+              <h3>Не оставим без работы</h3>
+              <p>
+                Хорошие специалисты всегда в цене, и Вы станете именно таким.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="reviews">
+      <div class="reviews-inner container">
+        <div class="reviews-header section-header" style="margin-bottom: 60px">
+          <h1>Отзывы выпускников</h1>
+          <a class="outline-btn">Показать все</a>
+        </div>
+        <div class="reviews-content">
+          <div class="reviews-content-student">
+            <img
+              src="img/student.jpg"
+              style="width: 100px; height: 100px"
+              alt="Выпускник нашей школы"
+            />
+            <div class="student-description">
+              <p style="margin-bottom: 10px">Иванов Петр Сергеевич</p>
+              <p style="color: #ffb084">
+                Группа 04-И-15 <br />
+                Выпуск 2009 г.
+              </p>
+            </div>
+          </div>
+          <div class="reviews-content-review">
+            <img src="img/caption.svg" style="align-self: start" />
+            <div class="review">
+              <h3>Тяжело в учении, легко в бою!</h3>
+              <p>
+                Во время обучения было очень тяжело, практические занятия
+                требовали усидчивости и гибкости ума. Однако, по прошествии
+                времени, понял, что все это было не зря! Устроился в ведущую
+                студию своего города сразу после выпуска, а проработав там три
+                года основал свою собственную!
+              </p>
+            </div>
+            <img
+              src="img/caption.svg"
+              style="align-self: end; transform: scaleX(-1)"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="container">
+        <div class="section-header">
+          <h1>Обратная связь</h1>
+        </div>
+        <div class="feedback-content">
+          <form>
+            <div class="feedback-form">
+              <label for="name">ФИО:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Представьтесь, пожалуйста"
+              />
+              <label for="age">Возраст:</label>
+              <input
+                type="text"
+                id="age"
+                placeholder="Укажите возраст, хотя бы приблизительно"
+              />
+              <label for="male">Пол:</label>
+              <div class="radio-input">
+                <div class="radio">
+                  <input type="radio" id="male" name="gender" />
+                  <label for="male" class="radio-label">Мужской</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="female" name="gender" />
+                  <label for="female" class="radio-label">Женский</label>
+                </div>
+              </div>
+              <label for="question">Вопрос:</label>
+              <textarea
+                id="question"
+                placeholder="Сообщите все, что считаете нужным"
+              ></textarea>
+              <input type="submit" class="dark-btn" value="Отправить" />
+            </div>
+          </form>
+          <div class="feedback-description">
+            <div class="feedback-info">
+              <h3 style="margin-bottom: 20px">
+                Заинтересовались обучением на нашей кафедре?
+              </h3>
+              <p style="margin-bottom: 20px">
+                Заполните короткую форму обратной связи и отправьте нам.
+              </p>
+              <p>
+                Мы подготовим для вас индивидуальное предложение и выйдем на
+                связь!
+              </p>
+            </div>
+            <div class="feedback-alert">
+              <p>
+                <span style="color: #ffb084">Внимание!</span> Все поля
+                обязательны для заполнения.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-info">
+            <div class="footer-left">
+              <div class="footer-logo">
+                <img src="img/logo-orange.svg" alt="Лого" />
+              </div>
+              <div class="footer-address">
+                197101, г. Санкт-Петербург, <br />
+                пр. Кронверкский, д. 49
+              </div>
+            </div>
+            <div class="footer-links">
+              <div class="footer-link-col">
+                <div class="footer-link-col-header">
+                  <a href="#">Обучение</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Расписание</a>
+                </div>
+                <div class="footer-link-col-item"><a href="#">Предметы</a></div>
+                <div class="footer-link-col-item"><a href="#">Практика</a></div>
+              </div>
+              <div class="footer-link-col">
+                <div class="footer-link-col-header">
+                  <a href="#">Выпускники</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Достижения</a>
+                </div>
+                <div class="footer-link-col-item"><a href="#">Отзывы</a></div>
+                <div class="footer-link-col-item"><a href="#">Найти</a></div>
+              </div>
+              <div class="footer-link-col">
+                <div class="footer-link-col-header">
+                  <a href="#">Как поступить</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">На коммерцию</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Целевой набор</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">На бюджет</a>
+                </div>
+              </div>
+              <div class="footer-link-col">
+                <div class="footer-link-col-header">
+                  <a href="#">Контакты</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Обратная связь</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Схема проезда</a>
+                </div>
+                <div class="footer-link-col-item">
+                  <a href="#">Телефон / факс</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-social">
+            <div class="footer-social-item">Все права защищены © 2023</div>
+            <div class="footer-social-item">
+              Подписчикам в соцсетях — скидки на обучение!
+            </div>
+            <div class="footer-social-item">
+              <a href="#"
+                ><img
+                  src="img/SocialIconLinkVk.svg"
+                  alt="VK"
+                  style="margin-right: 30px"
+              /></a>
+              <a href="#"
+                ><img src="img/SocialIconLinkTg.svg" alt="Telegram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
